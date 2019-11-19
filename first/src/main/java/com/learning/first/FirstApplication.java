@@ -22,4 +22,13 @@ public class FirstApplication {
         return str;
     }
 
+    @GetMapping("/mathTest")
+    public int mathTest() {
+        int result = 0;
+        for(int x = 1 ; x < 50 ; x++) {
+            result += x;
+        }
+        return result;
+    }
+
 }
