@@ -17,6 +17,10 @@ import java.util.List;
  */
 public class FileTest {
 
+    public static void main(String[] args) {
+        FileTest.readFileByLines("D:/test.txt");
+    }
+
     /**
      * 创建文件
      * @param filePath
